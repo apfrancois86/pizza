@@ -20,6 +20,6 @@ $(function() {
       newPizza.toppings.push($(this).val());
     });
     var finalOrder = newPizza.priceCalc();
-    $("#pizzaOutput").text(orderName + ", you have orderedfinalOrder + orderNumber + );
+    $("#pizzaOutput").text(orderName + ", your order total is $" + finalOrder + ". " + "We will call you at" + " " +  orderNumber + " " + "when your pizza is ready!");
   });
 });
