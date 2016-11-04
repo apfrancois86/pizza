@@ -15,6 +15,20 @@ body {
   color: #bd0023;
 }
 
+.jumbotron img {
+  float:right;
+  width: 300px;
+  height: 150px;
+}
+
+#pizza h3 {
+  text-decoration: underline;
+  color:#bd0023;
+}
+
+#pizza button {
+  background-color:#bd0023;
+}
 #pizzaOutput {
   display:none;
 }
@@ -28,6 +42,14 @@ body {
   margin-right: 300px;
 }
 
+#about h3 {
+  text-decoration: underline;
+  color:#bd0023;
+}
 
-#fdf9e4/*body color*/
-#bd0023 /*button color*/
+#about img {
+  height: 60%;
+  width: 60%;
+  margin-left: 15%;
+  margin-right: 15%;
+}
