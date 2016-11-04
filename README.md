@@ -13,8 +13,6 @@
 
 
 ## Specifications
-
-## Specifications
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
 | Select size of pizza via Bootstrap drop-down box|Small - $10 / Medium - $12 / Large - $14|*click* - Medium $ 12|
@@ -43,4 +41,4 @@
 
 ### License
 
-Copyright (c) 2016 Alex Francois
+Copyright (c) 2016 Alex Francois GPL

@@ -13,33 +13,42 @@
         <h1>Tony's Pizza Parlor</h1>
         <h4>Voted #1 pizza restaurant in Portland</h4>
       </div><!--End Jumbotron-->
-      <form id="pizza">
-        <h3>Order your Pizza</h3><br>
-        <label class="control-label" for="name">Your name: </label>
-        <input id="name" type="text"><br><br>
-        <label class="control-label" for="name">Your phone number: </label>
-        <input id="number" type="text"><br><br>
-        <label>What size of Pizza would you like?</label>
-          <select class="size">
-            <option value="10">Small ($10)</option>
-            <option value="12">Medium ($12)</option>
-            <option value="14">Large ($14)</option>
-          </select><br><br><!--End Select Box-->
-        <label for="toppings">Pick your Veggie toppings ($1.00 each):</label> <br>
-          <input type="checkbox" name="toppings" value="bell-peppers"> Bell Peppers <br>
-          <input type="checkbox" name="toppings" value="onions"> Onions <br>
-          <input type="checkbox" name="toppings" value="garlic"> Garlic <br>
-          <input type="checkbox" name="toppings" value="mushrooms"> Mushrooms <br><br>
+      <div class="row input">
+        <div class="col-md-6">
+          <form id="pizza">
+            <h3>Order your Pizza</h3><br>
+            <label class="control-label" for="name">Your name: </label>
+            <input id="name" type="text"><br><br>
+            <label class="control-label" for="name">Your phone number: </label>
+            <input id="number" type="text"><br><br>
+            <label>What size of Pizza would you like?</label>
+              <select class="size">
+                <option value="10">Small ($10)</option>
+                <option value="12">Medium ($12)</option>
+                <option value="14">Large ($14)</option>
+              </select><br><br><!--End Select Box-->
+            <label for="toppings">Pick your Veggie toppings ($1.00 each):</label> <br>
+              <input type="checkbox" name="toppings" value="bell-peppers"> Bell Peppers <br>
+              <input type="checkbox" name="toppings" value="onions"> Onions <br>
+              <input type="checkbox" name="toppings" value="garlic"> Garlic <br>
+              <input type="checkbox" name="toppings" value="mushrooms"> Mushrooms <br><br>
 
-        <label for="toppings">Pick your Meat toppings ($1.00 each):</label><br>
-          <input type="checkbox" name="toppings" value="pepperoni"> Pepperoni <br>
-          <input type="checkbox" name="toppings" value="sausage"> Sausage <br>
-          <input type="checkbox" name="toppings" value="cheese"> Chicken <br>
-          <input type="checkbox" name="toppings" value="sausage"> Anchovy <br><br>
-        <button type="submit" class="btn-primary">Order Your Pizza</button>
-      </form><!--End Form-->
+            <label for="toppings">Pick your Meat toppings ($1.00 each):</label><br>
+              <input type="checkbox" name="toppings" value="pepperoni"> Pepperoni <br>
+              <input type="checkbox" name="toppings" value="sausage"> Sausage <br>
+              <input type="checkbox" name="toppings" value="cheese"> Chicken <br>
+              <input type="checkbox" name="toppings" value="sausage"> Anchovy <br><br>
+            <button type="submit" class="btn-primary">Order Your Pizza</button>
+          </form><!--End Form-->
+        </div><!--End column-->
+        <div class="col-md-6">
+
+        </div><!--End column-->
+      </div><!--End row-->
       <div id="pizzaOutput">
-      </div>
+        <h3></h3>
+        <img src="img/pizzaCooking.gif" alt "pizza cooking">
+      </div><!--End output Div-->
     </div><!--End Container-->
   </body><!--End Body-->
 </html><!--End HTML->

@@ -1,0 +1,33 @@
+body {
+  background-color: #fdf9e4;
+}
+.jumbotron {
+  background-color: #000;
+}
+.jumbotron h1 {
+  font-family: sans-serif;
+  color:#fdf9e4;
+  text-shadow:5px 5px 2px #888888;
+}
+
+.jumbotron h4 {
+  font-family: cursive;
+  color: #bd0023;
+}
+
+#pizzaOutput {
+  display:none;
+}
+
+#pizzaOutput h3 {
+  text-align: center;
+}
+
+#pizzaOutput img {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+
+#fdf9e4/*body color*/
+#bd0023 /*button color*/

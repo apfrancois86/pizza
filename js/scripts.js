@@ -25,8 +25,9 @@ $(function() {
       newPizza.toppings.push($(this).val());
     });
     var finalOrder = newPizza.priceCalc();
-    $("#pizzaOutput").text(orderName + ", your order total is $" + finalOrder + ". " + "We will call you at" + " " +  orderNumber + " " + "when your pizza is ready!");
     $("form#pizza").hide();
-    
+    $("#pizzaOutput").show();
+    $("#pizzaOutput h3").text(orderName + ", your order total is $" + finalOrder + ". " + "We will call you at" + " " +  orderNumber + " " + "when your pizza is ready!");
+
   });
 });
