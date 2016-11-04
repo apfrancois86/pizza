@@ -29,7 +29,7 @@
 * Clone this repository
 * Open a HTML file
 * Open web browser of choice
-* visit the site here:
+* Visit the site here: https://apfrancois86.github.io/pizza/index.html
 
 
 ## Technologies Used
