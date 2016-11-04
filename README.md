@@ -17,7 +17,7 @@
 ## Specifications
 | Behavior        | Input           | Outcome  |
 | ------------- |:-------------:| -----:|
-| Select size of pizza via Bootstrap drop-down box|Small - $10 / Medium - $12 / Large - $14|*click* - Medium $ 10|
+| Select size of pizza via Bootstrap drop-down box|Small - $10 / Medium - $12 / Large - $14|*click* - Medium $ 12|
 |  Create area on right side of page where the current price will be listed  |X| X|
 | Provide checkboxes labeled "Toppings" underneath the pizza size selector that will have several ingredients to check off  |pepperoni (add $1.00)| *box gets checked*|
 | Associate values to pizza size |medium pizza = $12| $12|
