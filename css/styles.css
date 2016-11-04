@@ -29,18 +29,6 @@ body {
 #pizza button {
   background-color:#bd0023;
 }
-#pizzaOutput {
-  display:none;
-}
-
-#pizzaOutput h3 {
-  text-align: center;
-}
-
-#pizzaOutput img {
-  margin-left: 300px;
-  margin-right: 300px;
-}
 
 #about h3 {
   text-decoration: underline;
@@ -52,4 +40,25 @@ body {
   width: 60%;
   margin-left: 15%;
   margin-right: 15%;
+}
+
+#pizzaOutput {
+  display:none;
+  text-align: center;
+}
+
+#pizzaOutput h3 {
+  text-align: center;
+}
+
+#pizzaOutput img {
+  margin-left: 300px;
+  margin-right: 300px;
+}
+
+#pizzaOutput button {
+  background-color:#bd0023;
+  margin-top: 50px;
+  height:50px;
+  width: 150px;
 }

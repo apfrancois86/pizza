@@ -26,8 +26,13 @@ $(function() {
     });
     var finalOrder = newPizza.priceCalc();
     $("form#pizza").hide();
+    $("#about").hide();
     $("#pizzaOutput").show();
     $("#pizzaOutput h3").text(orderName + ", your order total is $" + finalOrder + ". " + "We will call you at" + " " +  orderNumber + " " + "when your pizza is ready!");
-
   });
+
+  $("#pizzaOutput button").click(function(){
+    location.reload();
+  });
+
 });
