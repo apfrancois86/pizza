@@ -1,19 +1,24 @@
+//Business Logic
 function Pizza(size) {
   this.size = size;
   this.toppings = [];
 }
 
 Pizza.prototype.priceCalc = function () {
-  var addedToppings = this.toppings.length * 1;
+  var addedToppings = this.toppings.length;
   var totalCost = this.size + addedToppings;
   return totalCost;
 }
 
+//UI Logic
 $(function() {
   $("form#pizza").submit(function(event) {
     event.preventDefault();
     var orderName = $("#name").val();
     var orderNumber = $("#number").val();
+    if (orderName === "" || orderNumber === "") {
+      return alert("Please enter your name and phone number")
+    }
     var sizeChoice = parseInt($(".size").val());
     var newPizza = new Pizza(sizeChoice);
     $("input[name='toppings']:checked").each(function() {
@@ -21,5 +26,7 @@ $(function() {
     });
     var finalOrder = newPizza.priceCalc();
     $("#pizzaOutput").text(orderName + ", your order total is $" + finalOrder + ". " + "We will call you at" + " " +  orderNumber + " " + "when your pizza is ready!");
+    $("form#pizza").hide();
+    
   });
 });
